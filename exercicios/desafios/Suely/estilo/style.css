@@ -1,0 +1,23 @@
+@charset "UTF-8";
+:root {
+    --cor1: #87CBE6;
+    --cor2: #42B3E0;
+    --cor3: #328BAD;
+    --cor4: #1C4D61;
+    --font-padrao: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: var(--font-padrao);
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
+}
